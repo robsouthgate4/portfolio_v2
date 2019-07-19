@@ -1,0 +1,14 @@
+---
+layout: page
+title: "A list of AR filters"
+permalink: "/ar-filters/"
+---
+
+<ul>
+  {% for arfilter in site.arfilters %}
+    <li>
+      <a href="{{ arfilter.url }}">{{ arfilter.title }}</a>
+      - {{ arfilter.headline }}
+    </li>
+  {% endfor %}
+</ul>

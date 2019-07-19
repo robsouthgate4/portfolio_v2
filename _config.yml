@@ -20,3 +20,9 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
+collections: 
+  arfilters:
+    output: true
+    permalink: /ar-filters/:name
+sass:
+    sass_dir: _scss

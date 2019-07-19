@@ -1,5 +1,5 @@
 ---
-title: Test collection
+title: Home Page
 Test: 
 layout: home
 ---
