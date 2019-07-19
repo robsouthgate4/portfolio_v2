@@ -1,6 +1,6 @@
 ---
-layout: arfilter # You can ommit this if you've set it as a default
 title: Tomorrow land Instagram filter
+layout: arfilter
 headline: Blah
 ---
 
