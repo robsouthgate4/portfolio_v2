@@ -2,9 +2,17 @@
 title: Rob Southgate
 timezone: UTC
 collections:
+  arfilters:
+    title: Arfilters
+    output: true
+    permalink: "/ar-filters/:name"
   posts:
     title: Posts
     output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:name"
   uploads:
     title: Uploads
     output: true
@@ -20,12 +28,5 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-collections: 
-  arfilters:
-    output: true
-    permalink: /ar-filters/:name
-  projects:
-    output: true
-    permalink: /projects/:name
 sass:
-    sass_dir: _scss
+  sass_dir: _scss
