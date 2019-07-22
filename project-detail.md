@@ -1,5 +1,5 @@
 ---
 title: Home Page
 Test: 
-layout: home
+layout: project_detail
 ---

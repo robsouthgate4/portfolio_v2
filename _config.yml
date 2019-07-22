@@ -14,8 +14,8 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: ''
 url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: rsouth90
+github_username: robsouthgate4
 markdown: kramdown
 theme: minima
 plugins:
@@ -24,5 +24,8 @@ collections:
   arfilters:
     output: true
     permalink: /ar-filters/:name
+  projects:
+    output: true
+    permalink: /projects/:name
 sass:
     sass_dir: _scss
