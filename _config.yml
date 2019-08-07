@@ -3,7 +3,7 @@ title: Rob Southgate
 timezone: UTC
 collections:
   ar_effects:
-    title: AR effects
+    title: Ar effects
     output: true
     permalink: "/ar-effects/:name"
   posts:
