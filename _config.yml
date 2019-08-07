@@ -2,10 +2,10 @@
 title: Rob Southgate
 timezone: UTC
 collections:
-  arfilters:
-    title: Arfilters
+  areffects:
+    title: Ar effects
     output: true
-    permalink: "/ar-filters/:name"
+    permalink: "/ar-effects/:name"
   posts:
     title: Posts
     output: true
