@@ -1,7 +1,7 @@
 ---
 title: Welcome to Jekyll!
 date: 2019-07-19 11:00:09 Z
-categories:
+criategoes:
 - jekyll
 - update
 layout: post
