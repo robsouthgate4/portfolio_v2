@@ -1,6 +1,6 @@
 ---
 title: Tomorrow land Instagram filter
-layout: arfilter
+layout: ar_effects
 headline: Blah
 ---
 

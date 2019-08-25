@@ -1,3 +1,8 @@
+.home {
+    overflow: hidden !important;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,10 +10,11 @@
     width: 80%;
     margin: 0 auto 0 auto;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 .webgl-hero {
-    height: 100vh;
+    height: 90vh;
     display: block;
     canvas {
         
