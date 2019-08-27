@@ -1,0 +1,40 @@
+.btn-generic {
+    display: block;
+    background: #000;
+    color: white;
+    padding: 10px 22px;
+    font-family: 'Roboto';
+    font-size: 10px;
+    outline: 1px solid #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    z-index: 5;
+}
+
+.btn-generic:after{z-index:-2}
+
+.btn:after,.btn:before{content:"";display:inline-block;position:absolute;}
+
+.btn-generic:after{
+    background-color:#eee;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out ;
+    margin-left:300px;
+    z-index:-3;
+}
+
+.btn-generic:before{
+    background-color:white;
+    width:200px;
+    height:200px;
+    transition:all .5s ease-in-out;
+    margin-left:500px;
+    transition:all.9s ease-in-out;
+    z-index:-1;
+}
+
+.btn-generic:hover:after{transform:scale(20,2)}
+.btn-generic:hover:before{transform: scale(7,2)}
+.btn-generic:hover{background-color:transparent;border:2px solid rgb(130,240,100);color:rgb(130,240,100)}
