@@ -9,25 +9,34 @@
 
                 <div class="content-listing">
 
-                    <div class="content-preview">
-                        <a href="/ar-effects">
-                            <div class="content-text">
-                                    <h2>AR Effects</h2>
-                                    <h3>Facebook & Instagram</h3>
-                                </div>
-                            <img src="/assets/filter-mobile.png" class="content-img">
-                        </a>                
-                    </div>
+                        {% for areffect in site.ar_effects %}
+                            <div class="content-preview">                                
+                                <a href="/ar-effects/Tomorrowland">
+                                    <div class="gradient"></div>
+                                    <div class="content-text">
+                                            <h2>{{ areffect.title }}</h2>
+                                            <h3>{{ areffect.type }}</h3>
+                                        </div>
+                                    <div class="content-mobile-gallery">
+                                        <img src="/assets/images/iphone/tomorrowland-phone-1.png" alt="">
+                                        <img src="/assets/images/iphone/iphone-empty.png" alt="">
+                                        <img src="/assets/images/iphone/tomorrowland-phone-2.png" alt="">
+                                    </div>
+                                </a>                
+                            </div>
+                        {% endfor %}
+
+                    
                 
                 
-                    <div class="content-preview">
+                    <!-- <div class="content-preview">
                         <a href="">
                             <div class="content-text">
                                 <h2>WebGL</h2>
                             </div>
                             <img src="https://place-hold.it/840x470/#fff/#000.jpg" alt="" class="content-img">
                         </a>                
-                    </div>
+                    </div> -->
                 
                 
                 </div>
