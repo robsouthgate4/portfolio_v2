@@ -1,0 +1,9 @@
+.btn-generic {
+    display: block;
+    outline: 1px solid #fff;
+    padding: 10px 15px;
+    &:hover {
+        color: rgb(73, 242, 87);
+        outline: 1px solid rgb(73, 242, 87);
+    }
+}

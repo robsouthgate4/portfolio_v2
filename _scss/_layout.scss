@@ -2,6 +2,11 @@
     overflow: hidden !important;
 }
 
+.btn-generic.home {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
 
 .container {
     display: flex;
@@ -25,32 +30,35 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    max-width: 764px;
+    margin: 100px auto 0 auto;
     .content-preview {
+
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin-top: 250px;
+        margin-top: 150px;
         position: relative;
 
         a {
             display: flex;
             height: 100%;
             width: 100%;
-            justify-content: flex-start;
+            justify-content: flex-end;
         }
 
         &:nth-child(odd) {
             a {
-                justify-content: flex-end;
+                //justify-content: flex-end;
             }
             
-            .content-text {
-                right: auto;
-                left: 0;
-                h2 {
-                    margin-bottom: 17px;
-                }
-            }
+            // .content-text {
+            //     right: auto;
+            //     left: 0;
+            //     h2 {
+            //         margin-bottom: 17px;
+            //     }
+            // }
         }
         &:first-child {
             margin-top: 0;
@@ -58,8 +66,8 @@
         .content-text {
             display: block;
             position: absolute;
-            left: auto;
-            right: 0;
+            left: 0;
+            right: auto;
             top: 25px;
         }
         img {
