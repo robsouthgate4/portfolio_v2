@@ -20,9 +20,9 @@ module Jekyll
 
         output = "<div class='video-iphone'>"
         output += "<img src='/assets/images/iphone/iphone-empty.png' alt="">"
-        # output += "<video autoplay loop>"
+        output += "<video autoplay loop>"
         output += "<source src='#{baseurl}/#{src}' type='video/mp4'>"
-        # output += "</video>"
+        output += "</video>"
         output += "</div>"
       end
 
