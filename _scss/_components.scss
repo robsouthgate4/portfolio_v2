@@ -7,3 +7,11 @@
         outline: 1px solid rgb(73, 242, 87);
     }
 }
+
+.content-preview {
+    transition: 0.25s;
+    &:hover {
+        transition: 0.25s;
+        opacity: 0.5;
+    }
+}
