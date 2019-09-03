@@ -9,13 +9,20 @@ hereImg: ''
 
 Some content about the Tomorow land filter goes here
 
-<div>
-    <p>
-        Testing p one
-    </p>
-</div>
-<div>
-    <p>
-        Testing p two
-    </p>
-</div>
+
+
+
+
+{% capture header %}
+    Heading
+{% endcapture %}
+
+{% capture section1 %}
+    I'm some stuff
+{% endcapture %}
+
+{% capture section2 %}
+    And I'm some other stuff And I'm some other stuff And I'm some other stuff And I'm some other stuff And I'm some other stuff
+{% endcapture %}
+
+{% include template.html %}
