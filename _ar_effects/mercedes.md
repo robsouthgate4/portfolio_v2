@@ -1,17 +1,17 @@
 ---
-title: Tomorrowland AR
-name: tomorrowland
+title: Mercedes Roar AR
+name: mercedes
 layout: ar_effects
-headline: Blah
+headline: Mercedes Roar
 type: Instagram Fiter
 tech: GLSL, JS, Spark AR
-order: "1"
+order: "0"
 listing-img-1: "tomorrowland-phone-1.png"
 listing-img-2: "tomorrowland-phone-2.png"
 listing-img-3: "tomorrowland-phone-2.png"
 ---
 
-Some content about the Tomorow land filter goes here
+Some content about the Mercedes filter goes here
 
 
 <!-- 
